@@ -1,0 +1,19 @@
+$primary-font: 'Open Sans',sans-serif;
+$curly-font: 'Cookie', cursive;
+
+$font-XL: 40px;
+$font-L: 36px;
+$font-M: 18px;
+$font-S: 12px;
+
+h1 {
+    font-size: $font-XL;
+}
+
+h2, h3 {
+    font-size: $font-L;
+}
+
+p, li {
+    font-size: $font-S;
+}

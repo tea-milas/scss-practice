@@ -1,0 +1,12 @@
+@import "_variables.scss";
+@import "_typography.scss";
+
+
+button {
+    background-color: $secondary-color;
+    padding: 10px 25px;
+    border: $border;
+    color: $third-color;
+    font-family: $primary-font;
+    border-radius: $radius;
+}

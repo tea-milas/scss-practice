@@ -1,0 +1,49 @@
+h1 {
+  font-size: 40px;
+}
+
+h2, h3 {
+  font-size: 36px;
+}
+
+p, li {
+  font-size: 12px;
+}
+
+.contact-form__wrapper {
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dddada;
+}
+
+.contact-form {
+  width: 20%;
+  border: 1px solid #e9c85d;
+  padding: 20px;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.contact-form .contact-form__label {
+  font-family: "Open Sans", sans-serif;
+  margin: 5px;
+  width: 200px;
+  text-align: start;
+}
+.contact-form .contact-form__input {
+  width: 200px;
+  text-align: left;
+}
+.contact-form .contact-form__button {
+  width: 200px;
+  margin-top: 10px;
+  background-color: #35359b;
+}

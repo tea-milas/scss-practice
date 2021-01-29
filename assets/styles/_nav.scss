@@ -1,0 +1,27 @@
+@import "_variables.scss";
+@import "_typography.scss";
+
+
+.nav {
+    height: 40px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+
+    .nav__title {
+        font-family: $curly-font;
+        color: $third-color;
+    }
+
+    .nav__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+
+    }
+
+
+}

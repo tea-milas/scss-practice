@@ -1,0 +1,42 @@
+@import "_variables.scss";
+@import "_typography.scss";
+
+.contact-form__wrapper {
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: $fourth-color;
+}
+    .contact-form {
+        width: 20%;;
+        border: $border ;
+        padding: 20px;
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $third-color;
+
+        .contact-form__label {
+            font-family: $primary-font;
+            margin: 5px;
+            width: 200px;
+            text-align: start;
+        }
+
+        .contact-form__input {
+            width: 200px;
+            text-align: left;
+        }
+
+        .contact-form__button {
+            width: 200px;
+            margin-top: 10px;
+            background-color: $primary-color;
+        }
+}

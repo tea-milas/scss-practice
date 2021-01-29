@@ -1,0 +1,30 @@
+h1 {
+  font-size: 40px;
+}
+
+h2, h3 {
+  font-size: 36px;
+}
+
+p, li {
+  font-size: 12px;
+}
+
+.nav {
+  height: 40px;
+  background-color: #35359b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.nav .nav__title {
+  font-family: "Cookie", cursive;
+  color: white;
+}
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
